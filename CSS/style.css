@@ -1,0 +1,85 @@
+        * {
+            padding: 0;
+            margin: 0;
+        } 
+        body {
+            background-color: aliceblue;
+            padding: 20px;
+            font-family: sans-serif;
+        }
+        #container {
+            margin: auto;
+            width: 1250px;
+        } 
+        #container #banner {
+            background-color: #6a0dad;
+            text-align: center;
+            padding: 20px 10px;
+            color: white;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+
+        }
+        #container #banner h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        #container #banner h2 {
+            font-size: 18px;
+            font-weight: normal;
+            color: #e6e6ff;
+        }
+        #container #banner h3 a:hover {
+            color: #4B0082;
+        }
+
+        #container #body {
+            display: flex;
+            align-items: stretch;
+            border: 2px solid #d1b3ff;
+        }
+
+        #container #menu {
+            background-color: #f2e6ff;
+            width: 300px;
+            border-right: 2px solid #d1b3ff;
+        }
+        #container #menu ul {
+            list-style: none;
+            margin-top: 30px;
+        }
+        #container #menu ul li {
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 13pt;
+            
+        }
+        #container #menu ul li a {
+            text-decoration: none;
+            color: black;
+            display: block;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        #container #menu ul li a:hover {
+            background-color: #d1b3ff;
+            font-size: 13.5pt;
+            letter-spacing: 0.5px;
+            
+        }
+        #content{
+            background-color: white;
+            flex: 1;
+            text-align: justify;
+            padding-bottom: 50px;
+        }
+        #container #footer {
+            background-color: #6a0dad;
+            text-align: center;
+            color: white;
+            padding: 15px;
+            font-size: 14px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
