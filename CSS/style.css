@@ -49,7 +49,7 @@
             margin-top: 30px;
         }
         #container #menu ul li {
-            padding: 10px;
+            padding: 5px;
             text-align: center;
             font-weight: bold;
             font-size: 13pt;
@@ -59,7 +59,7 @@
             text-decoration: none;
             color: black;
             display: block;
-            padding: 10px;
+            padding: 5px;
             border-radius: 10px;
         }
         #container #menu ul li a:hover {
